@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yefimov/project/sponge
+CMAKE_SOURCE_DIR = /home/yefimov/project/CS144/sponge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yefimov/project/sponge/build
+CMAKE_BINARY_DIR = /home/yefimov/project/CS144/sponge/build
 
 # Utility rule file for check_lab1.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yefimov/project/sponge/build
 include CMakeFiles/check_lab1.dir/progress.make
 
 CMakeFiles/check_lab1:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yefimov/project/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing the stream reassembler..."
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yefimov/project/CS144/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Testing the stream reassembler..."
 	/usr/bin/ctest --output-on-failure --timeout 10 -R 't_strm_reassem_|t_webget|t_byte_stream|_dt'
 
 check_lab1: CMakeFiles/check_lab1
@@ -72,6 +72,6 @@ CMakeFiles/check_lab1.dir/clean:
 .PHONY : CMakeFiles/check_lab1.dir/clean
 
 CMakeFiles/check_lab1.dir/depend:
-	cd /home/yefimov/project/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yefimov/project/sponge /home/yefimov/project/sponge /home/yefimov/project/sponge/build /home/yefimov/project/sponge/build /home/yefimov/project/sponge/build/CMakeFiles/check_lab1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yefimov/project/CS144/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yefimov/project/CS144/sponge /home/yefimov/project/CS144/sponge /home/yefimov/project/CS144/sponge/build /home/yefimov/project/CS144/sponge/build /home/yefimov/project/CS144/sponge/build/CMakeFiles/check_lab1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/check_lab1.dir/depend
 

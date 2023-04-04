@@ -1,4 +1,4 @@
-# Install script for directory: /home/yefimov/project/sponge/libsponge
+# Install script for directory: /home/yefimov/project/CS144/sponge/libsponge
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

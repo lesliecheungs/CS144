@@ -1,4 +1,4 @@
-# Install script for directory: /home/yefimov/project/sponge
+# Install script for directory: /home/yefimov/project/CS144/sponge
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,10 +39,10 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/yefimov/project/sponge/build/libsponge/cmake_install.cmake")
-  include("/home/yefimov/project/sponge/build/apps/cmake_install.cmake")
-  include("/home/yefimov/project/sponge/build/tests/cmake_install.cmake")
-  include("/home/yefimov/project/sponge/build/doctests/cmake_install.cmake")
+  include("/home/yefimov/project/CS144/sponge/build/libsponge/cmake_install.cmake")
+  include("/home/yefimov/project/CS144/sponge/build/apps/cmake_install.cmake")
+  include("/home/yefimov/project/CS144/sponge/build/tests/cmake_install.cmake")
+  include("/home/yefimov/project/CS144/sponge/build/doctests/cmake_install.cmake")
 
 endif()
 
@@ -54,5 +54,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/yefimov/project/sponge/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/yefimov/project/CS144/sponge/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

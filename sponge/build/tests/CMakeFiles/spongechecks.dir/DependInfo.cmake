@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/yefimov/project/sponge/tests/byte_stream_test_harness.cc" "/home/yefimov/project/sponge/build/tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o"
+  "/home/yefimov/project/CS144/sponge/tests/byte_stream_test_harness.cc" "/home/yefimov/project/CS144/sponge/build/tests/CMakeFiles/spongechecks.dir/byte_stream_test_harness.cc.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

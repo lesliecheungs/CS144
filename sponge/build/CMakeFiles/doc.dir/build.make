@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yefimov/project/sponge
+CMAKE_SOURCE_DIR = /home/yefimov/project/CS144/sponge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yefimov/project/sponge/build
+CMAKE_BINARY_DIR = /home/yefimov/project/CS144/sponge/build
 
 # Utility rule file for doc.
 
@@ -54,8 +54,8 @@ CMAKE_BINARY_DIR = /home/yefimov/project/sponge/build
 include CMakeFiles/doc.dir/progress.make
 
 CMakeFiles/doc:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yefimov/project/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate docs using Doxygen"
-	/usr/bin/doxygen /home/yefimov/project/sponge/build/Doxyfile
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/yefimov/project/CS144/sponge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generate docs using Doxygen"
+	/usr/bin/doxygen /home/yefimov/project/CS144/sponge/build/Doxyfile
 
 doc: CMakeFiles/doc
 doc: CMakeFiles/doc.dir/build.make
@@ -72,6 +72,6 @@ CMakeFiles/doc.dir/clean:
 .PHONY : CMakeFiles/doc.dir/clean
 
 CMakeFiles/doc.dir/depend:
-	cd /home/yefimov/project/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yefimov/project/sponge /home/yefimov/project/sponge /home/yefimov/project/sponge/build /home/yefimov/project/sponge/build /home/yefimov/project/sponge/build/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yefimov/project/CS144/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yefimov/project/CS144/sponge /home/yefimov/project/CS144/sponge /home/yefimov/project/CS144/sponge/build /home/yefimov/project/CS144/sponge/build /home/yefimov/project/CS144/sponge/build/CMakeFiles/doc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/doc.dir/depend
 

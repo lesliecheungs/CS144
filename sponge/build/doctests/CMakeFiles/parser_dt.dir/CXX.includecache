@@ -36,9 +36,9 @@ string
 utility
 -
 
-/home/yefimov/project/sponge/doctests/parser_dt.cc
+/home/yefimov/project/CS144/sponge/doctests/parser_dt.cc
 parser.hh
-/home/yefimov/project/sponge/doctests/parser.hh
+/home/yefimov/project/CS144/sponge/doctests/parser.hh
 cstdint
 -
 cstdlib
@@ -48,7 +48,7 @@ stdexcept
 vector
 -
 parser_example.cc
-/home/yefimov/project/sponge/doctests/parser_example.cc
+/home/yefimov/project/CS144/sponge/doctests/parser_example.cc
 
-/home/yefimov/project/sponge/doctests/parser_example.cc
+/home/yefimov/project/CS144/sponge/doctests/parser_example.cc
 

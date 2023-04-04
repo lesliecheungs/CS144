@@ -7,7 +7,7 @@ doctests/CMakeFiles/socket_dt.dir/socket_dt.cc.o
  ../libsponge/util/file_descriptor.hh
  ../libsponge/util/socket.hh
  ../libsponge/util/util.hh
- /home/yefimov/project/sponge/doctests/socket_dt.cc
- /home/yefimov/project/sponge/doctests/socket_example_1.cc
- /home/yefimov/project/sponge/doctests/socket_example_2.cc
- /home/yefimov/project/sponge/doctests/socket_example_3.cc
+ /home/yefimov/project/CS144/sponge/doctests/socket_dt.cc
+ /home/yefimov/project/CS144/sponge/doctests/socket_example_1.cc
+ /home/yefimov/project/CS144/sponge/doctests/socket_example_2.cc
+ /home/yefimov/project/CS144/sponge/doctests/socket_example_3.cc

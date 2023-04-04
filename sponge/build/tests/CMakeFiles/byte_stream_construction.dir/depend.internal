@@ -4,5 +4,5 @@
 tests/CMakeFiles/byte_stream_construction.dir/byte_stream_construction.cc.o
  ../libsponge/byte_stream.hh
  ../libsponge/util/util.hh
- /home/yefimov/project/sponge/tests/byte_stream_construction.cc
- /home/yefimov/project/sponge/tests/byte_stream_test_harness.hh
+ /home/yefimov/project/CS144/sponge/tests/byte_stream_construction.cc
+ /home/yefimov/project/CS144/sponge/tests/byte_stream_test_harness.hh

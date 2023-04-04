@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yefimov/project/sponge
+CMAKE_SOURCE_DIR = /home/yefimov/project/CS144/sponge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yefimov/project/sponge/build
+CMAKE_BINARY_DIR = /home/yefimov/project/CS144/sponge/build
 
 # Utility rule file for tidy_tests__fsm_retx_relaxed.cc.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/yefimov/project/sponge/build
 include CMakeFiles/tidy_tests__fsm_retx_relaxed.cc.dir/progress.make
 
 CMakeFiles/tidy_tests__fsm_retx_relaxed.cc:
-	clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/home/yefimov/project/sponge/build /home/yefimov/project/sponge/tests/fsm_retx_relaxed.cc
+	clang-tidy -checks='*,-fuchsia-*,-hicpp-signed-bitwise,-google-build-using-namespace,-android*,-cppcoreguidelines-pro-bounds-pointer-arithmetic,-google-runtime-references,-readability-avoid-const-params-in-decls,-llvm-header-guard' -header-filter=.* -p=/home/yefimov/project/CS144/sponge/build /home/yefimov/project/CS144/sponge/tests/fsm_retx_relaxed.cc
 
 tidy_tests__fsm_retx_relaxed.cc: CMakeFiles/tidy_tests__fsm_retx_relaxed.cc
 tidy_tests__fsm_retx_relaxed.cc: CMakeFiles/tidy_tests__fsm_retx_relaxed.cc.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/tidy_tests__fsm_retx_relaxed.cc.dir/clean:
 .PHONY : CMakeFiles/tidy_tests__fsm_retx_relaxed.cc.dir/clean
 
 CMakeFiles/tidy_tests__fsm_retx_relaxed.cc.dir/depend:
-	cd /home/yefimov/project/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yefimov/project/sponge /home/yefimov/project/sponge /home/yefimov/project/sponge/build /home/yefimov/project/sponge/build /home/yefimov/project/sponge/build/CMakeFiles/tidy_tests__fsm_retx_relaxed.cc.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yefimov/project/CS144/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yefimov/project/CS144/sponge /home/yefimov/project/CS144/sponge /home/yefimov/project/CS144/sponge/build /home/yefimov/project/CS144/sponge/build /home/yefimov/project/CS144/sponge/build/CMakeFiles/tidy_tests__fsm_retx_relaxed.cc.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tidy_tests__fsm_retx_relaxed.cc.dir/depend
 

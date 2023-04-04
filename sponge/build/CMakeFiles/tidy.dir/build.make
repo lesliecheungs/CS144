@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/yefimov/project/sponge
+CMAKE_SOURCE_DIR = /home/yefimov/project/CS144/sponge
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/yefimov/project/sponge/build
+CMAKE_BINARY_DIR = /home/yefimov/project/CS144/sponge/build
 
 # Utility rule file for tidy.
 
@@ -71,6 +71,6 @@ CMakeFiles/tidy.dir/clean:
 .PHONY : CMakeFiles/tidy.dir/clean
 
 CMakeFiles/tidy.dir/depend:
-	cd /home/yefimov/project/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yefimov/project/sponge /home/yefimov/project/sponge /home/yefimov/project/sponge/build /home/yefimov/project/sponge/build /home/yefimov/project/sponge/build/CMakeFiles/tidy.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/yefimov/project/CS144/sponge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/yefimov/project/CS144/sponge /home/yefimov/project/CS144/sponge /home/yefimov/project/CS144/sponge/build /home/yefimov/project/CS144/sponge/build /home/yefimov/project/CS144/sponge/build/CMakeFiles/tidy.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tidy.dir/depend
 

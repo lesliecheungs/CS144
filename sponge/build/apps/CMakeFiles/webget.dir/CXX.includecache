@@ -88,11 +88,11 @@ system_error
 vector
 -
 
-/home/yefimov/project/sponge/apps/webget.cc
+/home/yefimov/project/CS144/sponge/apps/webget.cc
 socket.hh
-/home/yefimov/project/sponge/apps/socket.hh
+/home/yefimov/project/CS144/sponge/apps/socket.hh
 util.hh
-/home/yefimov/project/sponge/apps/util.hh
+/home/yefimov/project/CS144/sponge/apps/util.hh
 cstdlib
 -
 iostream
