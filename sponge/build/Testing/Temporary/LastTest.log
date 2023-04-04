@@ -1,17 +1,17 @@
-Start testing: Apr 04 06:59 UTC
+Start testing: Apr 04 07:25 UTC
 ----------------------------------------------------------
 22/163 Testing: t_byte_stream_construction
 22/163 Test: t_byte_stream_construction
 Command: "/home/yefimov/project/CS144/sponge/build/tests/byte_stream_construction"
 Directory: /home/yefimov/project/CS144/sponge/build
-"t_byte_stream_construction" start time: Apr 04 06:59 UTC
+"t_byte_stream_construction" start time: Apr 04 07:25 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_construction" end time: Apr 04 06:59 UTC
+"t_byte_stream_construction" end time: Apr 04 07:25 UTC
 "t_byte_stream_construction" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -19,14 +19,14 @@ Test Passed.
 23/163 Test: t_byte_stream_one_write
 Command: "/home/yefimov/project/CS144/sponge/build/tests/byte_stream_one_write"
 Directory: /home/yefimov/project/CS144/sponge/build
-"t_byte_stream_one_write" start time: Apr 04 06:59 UTC
+"t_byte_stream_one_write" start time: Apr 04 07:25 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_one_write" end time: Apr 04 06:59 UTC
+"t_byte_stream_one_write" end time: Apr 04 07:25 UTC
 "t_byte_stream_one_write" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -34,14 +34,14 @@ Test Passed.
 24/163 Test: t_byte_stream_two_writes
 Command: "/home/yefimov/project/CS144/sponge/build/tests/byte_stream_two_writes"
 Directory: /home/yefimov/project/CS144/sponge/build
-"t_byte_stream_two_writes" start time: Apr 04 06:59 UTC
+"t_byte_stream_two_writes" start time: Apr 04 07:25 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_two_writes" end time: Apr 04 06:59 UTC
+"t_byte_stream_two_writes" end time: Apr 04 07:25 UTC
 "t_byte_stream_two_writes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -49,14 +49,14 @@ Test Passed.
 25/163 Test: t_byte_stream_capacity
 Command: "/home/yefimov/project/CS144/sponge/build/tests/byte_stream_capacity"
 Directory: /home/yefimov/project/CS144/sponge/build
-"t_byte_stream_capacity" start time: Apr 04 06:59 UTC
+"t_byte_stream_capacity" start time: Apr 04 07:25 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_capacity" end time: Apr 04 06:59 UTC
+"t_byte_stream_capacity" end time: Apr 04 07:25 UTC
 "t_byte_stream_capacity" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -64,14 +64,14 @@ Test Passed.
 26/163 Test: t_byte_stream_many_writes
 Command: "/home/yefimov/project/CS144/sponge/build/tests/byte_stream_many_writes"
 Directory: /home/yefimov/project/CS144/sponge/build
-"t_byte_stream_many_writes" start time: Apr 04 06:59 UTC
+"t_byte_stream_many_writes" start time: Apr 04 07:25 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_byte_stream_many_writes" end time: Apr 04 06:59 UTC
+"t_byte_stream_many_writes" end time: Apr 04 07:25 UTC
 "t_byte_stream_many_writes" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -79,13 +79,13 @@ Test Passed.
 27/163 Test: t_webget
 Command: "/home/yefimov/project/CS144/sponge/tests/webget_t.sh"
 Directory: /home/yefimov/project/CS144/sponge/build
-"t_webget" start time: Apr 04 06:59 UTC
+"t_webget" start time: Apr 04 07:25 UTC
 Output:
 ----------------------------------------------------------
 Function called: get_URL(cs144.keithw.org, /hasher/xyzzy).
 Warning: get_URL() has not been implemented yet.
 HTTP/1.1 200 OK
-Date: Tue, 04 Apr 2023 06:59:37 GMT
+Date: Tue, 04 Apr 2023 07:25:01 GMT
 Server: Apache
 Content-Length: 44
 Connection: close
@@ -93,25 +93,25 @@ Content-Type: text/plain
 
 QWx0NhMPkoM/bJr/ohvHXlviFhOyYrYb+qqdOnwLYo4
 <end of output>
-Test time =   1.52 sec
+Test time =   2.22 sec
 ----------------------------------------------------------
 Test Passed.
-"t_webget" end time: Apr 04 06:59 UTC
-"t_webget" time elapsed: 00:00:01
+"t_webget" end time: Apr 04 07:25 UTC
+"t_webget" time elapsed: 00:00:02
 ----------------------------------------------------------
 
 47/163 Testing: t_address_dt
 47/163 Test: t_address_dt
 Command: "/home/yefimov/project/CS144/sponge/build/doctests/address_dt"
 Directory: /home/yefimov/project/CS144/sponge/build
-"t_address_dt" start time: Apr 04 06:59 UTC
+"t_address_dt" start time: Apr 04 07:25 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
-Test time =   0.03 sec
+Test time =   0.20 sec
 ----------------------------------------------------------
 Test Passed.
-"t_address_dt" end time: Apr 04 06:59 UTC
+"t_address_dt" end time: Apr 04 07:25 UTC
 "t_address_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -119,14 +119,14 @@ Test Passed.
 48/163 Test: t_parser_dt
 Command: "/home/yefimov/project/CS144/sponge/build/doctests/parser_dt"
 Directory: /home/yefimov/project/CS144/sponge/build
-"t_parser_dt" start time: Apr 04 06:59 UTC
+"t_parser_dt" start time: Apr 04 07:25 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"t_parser_dt" end time: Apr 04 06:59 UTC
+"t_parser_dt" end time: Apr 04 07:25 UTC
 "t_parser_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
@@ -134,15 +134,15 @@ Test Passed.
 49/163 Test: t_socket_dt
 Command: "/home/yefimov/project/CS144/sponge/build/doctests/socket_dt"
 Directory: /home/yefimov/project/CS144/sponge/build
-"t_socket_dt" start time: Apr 04 06:59 UTC
+"t_socket_dt" start time: Apr 04 07:25 UTC
 Output:
 ----------------------------------------------------------
 <end of output>
 Test time =   0.01 sec
 ----------------------------------------------------------
 Test Passed.
-"t_socket_dt" end time: Apr 04 06:59 UTC
+"t_socket_dt" end time: Apr 04 07:25 UTC
 "t_socket_dt" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Apr 04 06:59 UTC
+End testing: Apr 04 07:25 UTC
